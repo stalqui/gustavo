@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #4ffe6c, #00fe55);
+            color: greenyellow;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: greenyellow;
+            text-align: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        article {
+            padding: 1rem;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        .related-content {
+            margin-top: 2rem;
+        }
+        .custom-list {
+            list-style-type: none;
+            padding-left: 1rem;
+        }
+        .custom-list li:before {
+            content: "🔹";
+            margin-right: 0.5rem;
+        }
+        .external-link {
+            color: #007bff; /* Bootstrap blue color */
+            text-decoration: none;
+        }
+        .external-link:before {
+            content: "🔗 ";
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curiosidades da tecnologia</h1>
+    </header>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="Formulario..html" id="formulario de contato">Contato</a>
+    </nav>
+    <article>
+        <h2>História do Mascote do Android</h2>
+        <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+
+        <h3>A primeira versão</h3>
+        <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+        <img src="dan-droids.png" alt="Imagem de exemplo">
+        <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
+        
+        <h4>Surge um novo mascote</h4>
+        <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
+        <img src="irina-blok.jpg" alt="Imagem de exemplo">
+        <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
+        <img src="bugdroid.png" alt="Imagem de exemplo">
+        <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=HYLa-rnjwDv_L8pu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        
+
+        <div class="related-content">
+            <h5>Conteúdo Relacionado</h5>
+            <ul class="custom-list">
+                <li>1.5 - Cupcake</li>
+                <li>1.6 - Donut</li>
+                <li>2.2 - Froyo</li>
+                <li>2.3 - Gingerbread</li>
+                <li>3.0 - Eclair</li>
+                <li>3.0 - Honeycomb</li>
+                <li>4.0 - Ice Cream Sandwich</li>
+                <li>4.1 - Jelly Bean</li>
+                <li>4.4 - KitKat</li>
+                <li>5.0 - Lolipop</li>
+                <li>6.0 - Marshmallow</li>
+                <li>7.0 - Nougat</li>
+                <li>8.0 - Oreo</li>
+                <li>9.0 - Pie</li>
+            </ul>
+            <p>Confira também estes links interessantes:</p>
+            <ul>
+                <li><a href="https://www.example.com" class="external-link" target="_blank">Exemplo de Link Externo</a></li>
+                <li><a href="https://www.openai.com" class="external-link" target="_blank">OpenAI</a></li>
+            </ul>
+        </div>
+    </article>
+</body>
+</html>
